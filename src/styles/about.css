@@ -11,6 +11,7 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    height: 380px;
 
 }
 
@@ -75,6 +76,7 @@
 
     .about_me {
         width: 50%;
+        height: 240px;
         margin: 2rem auto 4rem;
     }
 
@@ -87,6 +89,7 @@
 @media screen and (max-width: 600px) {
     .about_me {
         width: 65%;
+        height: 180px;
         margin: 0 auto 3rem;
     }
 
