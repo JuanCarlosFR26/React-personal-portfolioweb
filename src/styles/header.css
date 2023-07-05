@@ -10,6 +10,22 @@ header {
     position: relative;
 }
 
+/* ============= ANIMATION =============== */
+.neon_title {
+    text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 40px #00f, 0 0 80px #00f, 0 0 120px #00f, 0 0 200px #00f, 0 0 300px #00f, 0 0 400px #00f;
+    animation: neon-animation .5s ease-in infinite alternate;
+}
+
+@keyframes neon-animation {
+    0% {
+        color: #fff;
+    }
+
+    100% {
+        color: #8a2be2;
+    }
+}
+
 /* ========= CTA ============= */
 .cta {
     margin-top: 2.5rem;
@@ -71,7 +87,8 @@ header {
         height: 100vh;
     }
 
-    .header_socials, .scroll_down {
+    .header_socials,
+    .scroll_down {
         display: none;
     }
 
