@@ -17,23 +17,19 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Web Usability</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>User experience</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Tracking information</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Search for resources</p>
             </li>
           </ul>
         </article>
@@ -46,64 +42,60 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Create and test applications for web sites</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Troubleshoot website problems</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Maintain and update the website</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Monitor website traffic</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Website prototyping</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Submit design specifications</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Working with web designers</p>
             </li>
           </ul>
         </article>
         {/* WEB DEVELOPMENT */}
         <article className='service'>
           <div className='service_head'>
-            <h3>Content Creation</h3>
+            <h3>Manage social networks</h3>
           </div>
 
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Creation of a recreational channel</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Creation of educational channels</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Manage python discord server</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Search for resources</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>Lorem, ipsum dolor sit amet consectetur iper</p>
+              <p>Good writing skills</p>
             </li>
           </ul>
         </article>
