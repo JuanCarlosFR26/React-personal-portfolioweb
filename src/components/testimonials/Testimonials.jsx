@@ -2,6 +2,8 @@ import React from "react";
 import "../../styles/testimonials.css";
 import IMG from "../../assets/tokito.jpg";
 import AVATAR1 from '../../assets/testimonial1.jpg'
+import AVATAR2 from '../../assets/testimonial2.jpg'
+import AVATAR3 from '../../assets/testimonial4.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from "swiper/modules";
@@ -38,7 +40,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial">
           <div className="client_avatar">
-            <img src={IMG} alt="img"></img>
+            <img src={AVATAR2} alt="img"></img>
           </div>
           <h5 className="client_name">Juan José</h5>
           <small className="client_review">
@@ -47,7 +49,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial">
           <div className="client_avatar">
-            <img src={IMG} alt="img"></img>
+            <img src={AVATAR3} alt="img"></img>
           </div>
           <h5 className="client_name">Nicolás</h5>
           <small className="client_review">
