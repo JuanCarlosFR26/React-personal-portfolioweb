@@ -8,7 +8,8 @@
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
-    border: 1ox solid transparent;
+    height: 550px;
+    border: 1px solid transparent;
     transition: var(--transition);
 }
 
@@ -18,8 +19,13 @@
 }
 
 .portfolio_item-image {
+    height: 65%;
     border-radius: 1.5rem;
     overflow: hidden;
+}
+.portfolio_item-image img {
+    object-fit: cover;
+    object-position: center;
 }
 
 .portfolio_item h3 {
@@ -37,6 +43,21 @@
     .portfolio_container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+    }
+
+    .portfolio_item {
+        background: var(--color-bg-variant);
+        padding: 1rem;
+        border-radius: 2rem;
+        height: 450px;
+        border: 1px solid transparent;
+        transition: var(--transition);
+    }
+
+    .portfolio_item-image {
+        height: 60%;
+        border-radius: 1.5rem;
+        overflow: hidden;
     }
 }
 

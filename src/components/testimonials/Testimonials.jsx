@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/testimonials.css";
 import IMG from "../../assets/tokito.jpg";
+import AVATAR1 from '../../assets/testimonial1.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from "swiper/modules";
@@ -28,46 +29,29 @@ const Testimonials = () => {
       >
         <SwiperSlide className="testimonial">
           <div className="client_avatar">
-            <img src={IMG} alt="img"></img>
+            <img src={AVATAR1} alt="img"></img>
           </div>
-          <h5 className="client_name">Muichiro tokito</h5>
+          <h5 className="client_name">Óscar Jesús Soria Ruíz</h5>
           <small className="client_review">
-            l orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum
-            orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum
-            orem ipsum orem ipsum orem ipsum
+          ¡Recomendado 100%! Es muy cercano, profesional, sincero, domina los conocimientos que imparte y además es humilde.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
           <div className="client_avatar">
             <img src={IMG} alt="img"></img>
           </div>
-          <h5 className="client_name">Muichiro tokito</h5>
+          <h5 className="client_name">Juan José</h5>
           <small className="client_review">
-            l orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum
-            orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum
-            orem ipsum orem ipsum orem ipsum
+          Tiene packs interesantes para aprender de forma económica. Te acompaña todo el tiempo necesario para que aprendas bien y te anima a realizar tus propio proyectos con su ayuda. Recomendado sin duda. Gracias.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
           <div className="client_avatar">
             <img src={IMG} alt="img"></img>
           </div>
-          <h5 className="client_name">Muichiro tokito</h5>
+          <h5 className="client_name">Nicolás</h5>
           <small className="client_review">
-            l orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum
-            orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum
-            orem ipsum orem ipsum orem ipsum
-          </small>
-        </SwiperSlide>
-        <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={IMG} alt="img"></img>
-          </div>
-          <h5 className="client_name">Muichiro tokito</h5>
-          <small className="client_review">
-            l orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum
-            orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum orem ipsum
-            orem ipsum orem ipsum orem ipsum
+          Un profundo conocimientos técnicos, una gran forma de dar sus clases y explicaciones, ejemplos muy sencillos, muy fácil aprender con él. Al margen, de lo cercano que te hace sentir. 100 % recomendable sin lugar a dudas.
           </small>
         </SwiperSlide>
       </Swiper>
