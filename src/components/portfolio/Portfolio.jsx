@@ -4,6 +4,7 @@ import IMG from "../../assets/tokito.jpg";
 import CRYPTO from '../../assets/crypto.jpg';
 import CLIMA from '../../assets/clima.jpg';
 import PIXABAY from '../../assets/pixabay.jpg';
+import GPT3 from '../../assets/gpt3.jpg';
 
 // Hacer un array de objetos para unn .map para el portfolio
 
@@ -14,6 +15,20 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
+      <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={GPT3} alt="img"></img>
+          </div>
+          <h3>GPT3 website</h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/JuanCarlosFR26/GPT3-react.git" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="https://gpt3websitereact.netlify.app/" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
+        </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={CRYPTO} alt="img"></img>
